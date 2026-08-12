@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aprende Vocales y Números</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GOOGLE ADSENSE (TU CÓDIGO) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6343257197548948"
+       crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+  <div class="pantalla">
+    <h2 id="texto"></h2>
+    <img id="imagen" src="" alt="Imagen educativa">
+  </div>
+
+  <h1>🔤 Vocales</h1>
+
+  <button class="btn-juego" id="btnJuegoVocales" onclick="toggleJuegoVocales()">🎯 Modo Juego</button>
+
+  <div class="botones">
+    <button onclick="mostrar('A','avión','img/a_avion.png')">A</button>
+    <button onclick="mostrar('E','elefante','img/e_elefante.png')">E</button>
+    <button onclick="mostrar('I','iguana','img/i_iguana.png')">I</button>
+    <button onclick="mostrar('O','oso','img/o_oso.png')">O</button>
+    <button onclick="mostrar('U','uva','img/u_uva.png')">U</button>
+  </div>
+  <h1>🔠 Abecedario</h1>
+
+<div class="botones">
+  <button onclick="hablar('A')">A</button>
+  <button onclick="hablar('B')">B</button>
+  <button onclick="hablar('C')">C</button>
+  <button onclick="hablar('D')">D</button>
+  <button onclick="hablar('E')">E</button>
+  <button onclick="hablar('F')">F</button>
+  <button onclick="hablar('G')">G</button>
+  <button onclick="hablar('H')">H</button>
+  <button onclick="hablar('I')">I</button>
+  <button onclick="hablar('J')">J</button>
+  <button onclick="hablar('K')">K</button>
+  <button onclick="hablar('L')">L</button>
+  <button onclick="hablar('M')">M</button>
+  <button onclick="hablar('N')">N</button>
+  <button onclick="hablar('Ñ')">Ñ</button>
+  <button onclick="hablar('O')">O</button>
+  <button onclick="hablar('P')">P</button>
+  <button onclick="hablar('Q')">Q</button>
+  <button onclick="hablar('R')">R</button>
+  <button onclick="hablar('S')">S</button>
+  <button onclick="hablar('T')">T</button>
+  <button onclick="hablar('U')">U</button>
+  <button onclick="hablar('V')">V</button>
+  <button onclick="hablar('W')">W</button>
+  <button onclick="hablar('X')">X</button>
+  <button onclick="hablar('Y')">Y</button>
+  <button onclick="hablar('Z')">Z</button>
+</div>
+<h1>🐾 Animales</h1>
+
+<button class="btn-juego" id="btnJuegoAnimales" onclick="toggleJuegoAnimales()">🎯 Modo Juego</button>
+
+<div class="botones">
+  <button onclick="mostrarAnimal('Perro','img/perro.png')">🐶</button>
+  <button onclick="mostrarAnimal('Gato','img/gato.png')">🐱</button>
+  <button onclick="mostrarAnimal('León','img/leon.png')">🦁</button>
+  <button onclick="mostrarAnimal('Elefante','img/elefante.png')">🐘</button>
+  <button onclick="mostrarAnimal('Mono','img/mono.png')">🐵</button>
+  <button onclick="mostrarAnimal('Rana','img/rana.png')">🐸</button>
+  <button onclick="mostrarAnimal('Conejo','img/conejo.png')">🐰</button>
+  <button onclick="mostrarAnimal('Panda','img/panda.png')">🐼</button>
+</div>
+
+  <h1>🔢 Números</h1>
+
+  <div class="botones">
+    <button onclick="decirNumero(1)">1</button>
+    <button onclick="decirNumero(2)">2</button>
+    <button onclick="decirNumero(3)">3</button>
+    <button onclick="decirNumero(4)">4</button>
+    <button onclick="decirNumero(5)">5</button>
+    <button onclick="decirNumero(6)">6</button>
+    <button onclick="decirNumero(7)">7</button>
+    <button onclick="decirNumero(8)">8</button>
+    <button onclick="decirNumero(9)">9</button>
+    <button onclick="decirNumero(10)">10</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
